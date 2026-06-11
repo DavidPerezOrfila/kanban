@@ -1,43 +1,44 @@
-# Kanban Project
+# Proyecto Kanban
 
-## Business Requirements
+## Requisitos del negocio
 
-- An MVP of a Kanban style Project Management application as a web app  
-- The web app should only have 1 board
-- The board has fixed 5 columns that can be renamed  
-- Each card has a title and details only
-- Drag and drop interface to move cards between columns
-- Add a new card to a column; delete an existing card
-- No more functionality: no archive, no search/filter. Keep it simple.
-- The priority is a slick, professional, gorgeous UI/UX with very simple features
-- The app should open with dummy data populated for the single board
+- Un MVP (Producto Mínimo Viable) de una aplicación de gestión de proyectos estilo Kanban como aplicación web.
+- La aplicación web debe tener un solo tablero.
+- El tablero tiene 5 columnas fijas que se pueden renombrar.
+- Cada tarjeta tiene solo un título y detalles.
+- Interfaz de arrastrar y soltar para mover tarjetas entre columnas.
+- Agregar una nueva tarjeta a una columna; eliminar una tarjeta existente.
+- Sin funcionalidades adicionales: sin archivo, sin búsqueda ni filtrado. Que sea simple. - La prioridad es una interfaz de usuario (UI/UX) elegante, profesional y atractiva, con funciones muy sencillas.
+- La aplicación debe abrirse con datos de ejemplo para el tablero único.
 
-## Technical Details
+## Detalles técnicos
 
-- Implemented as a modern NextJS app, client rendered
-- The NextJS app should be created in a subdirectory `frontend`
-- No persistence
-- No user management for the MVP
-- Use popular libraries
-- As simple as possible but with an elegant UI
+- Implementada como una aplicación NextJS moderna, renderizada en el cliente.
+- La aplicación NextJS debe crearse en un subdirectorio `frontend`.
+- Sin persistencia.
+- Sin gestión de usuarios para el MVP.
+- Utilizar bibliotecas populares.
+- Lo más simple posible, pero con una interfaz de usuario elegante.
 
-## Color Scheme
+## Esquema de colores
 
-- Accent Yellow: `#ecad0a` - accent lines, highlights
-- Blue Primary: `#209dd7` - links, key sections
-- Purple Secondary: `#753991` - submit buttons, important actions
-- Dark Navy: `#032147` - main headings
-- Gray Text: `#888888` - supporting text, labels
+- Amarillo de acento: `#ecad0a` - líneas de acento, resaltados.
+- Azul principal: `#209dd7` - enlaces, secciones clave.
+- Morado secundario: `#753991` - botones de envío, acciones importantes.
+- Azul marino oscuro: `#032147` - encabezados principales.
+- Gris texto: `#888888` - texto de apoyo, etiquetas.
 
-## Strategy
+## Estrategia
 
-1. Write plan with success criteria for each phase to be checked off. Include project scaffolding, including .gitignore, and rigorous unit testing.
-2. Execute the plan ensuring all critiera are met
-3. Carry out extensive integration testing with Playwright or similar, fixing defects
-4. Only complete when the MVP is finished and tested, with the server running and ready for the user
+1. Elaborar un plan con criterios de éxito para cada fase. Incluir la estructura del proyecto, incluyendo `.gitignore`, y pruebas unitarias rigurosas.
 
-## Coding standards
+2. Ejecutar el plan asegurándose de que se cumplan todos los criterios.
+3. Realizar pruebas de integración exhaustivas con Playwright o similar, corrigiendo los defectos.
+4. Finalizar solo cuando el MVP esté terminado y probado, con el servidor en funcionamiento y listo para el usuario.
 
-1. Use latest versions of libraries and idiomatic approaches as of today
-2. Keep it simple - NEVER over-engineer, ALWAYS simplify, NO unnecessary defensive programming. No extra features - focus on simplicity.
-3. Be concise. Keep README minimal. IMPORTANT: no emojis ever
+## Estándares de codificación
+
+1. Utilizar las últimas versiones de las bibliotecas y enfoques idiomáticos actuales.
+2. Mantener la simplicidad: NUNCA sobreingeniería, SIEMPRE simplificar, SIN programación defensiva innecesaria. Sin funciones adicionales: centrarse en la simplicidad.
+
+3. Ser conciso. Mantener el README mínimo. IMPORTANTE: no usar emojis.
