@@ -1,25 +1,25 @@
-# Kanban Project Manager
+# Gestor de Proyectos Kanban
 
-## Instructions
+## Instrucciones
 
-This is a skeleton project to be the basis for your Kanban project for Week 1 of the Complete AI Coder Course. See the course resources for more.
+Este es un proyecto base para tu proyecto Kanban de la Semana 1 del Curso Completo de Programación en IA. Consulta los recursos del curso para obtener más información.
 
-You should clone this repo within your projects directory with:
+Debes clonar este repositorio en tu directorio de proyectos con:
 
-`git clone https://github.com/ed-donner/kanban.git`
+`git clone https://github.com/joanby/kanban.git`
 
-And then refine the AGENTS.md before using in your Coding Agent of choice.
+Luego, modifica el archivo AGENTS.md antes de usarlo en tu Agente de Codificación preferido.
 
-If you don't have git installed, you can [install it here](https://git-scm.com/install/) and you might need to reboot afterwards.
+Si no tienes Git instalado, puedes [instalarlo aquí](https://git-scm.com/install/) y es posible que necesites reiniciar el equipo después.
 
-## Contributing your AGENTS.md
+## Contribuir con tu archivo AGENTS.md
 
-If you have suggested AGENTS.md changes that have worked well for you, please contribute them to benefit other students! Follow the instructions linked [here](https://edwarddonner.com/pr) to raise a PR to put it in community_contributions. Name your file something like ED_DONNER_AGENTS.md but with your name..
+Si has sugerido cambios en AGENTS.md que te han funcionado bien, ¡compártelos para que otros estudiantes se beneficien! Sigue las instrucciones del enlace [aquí](https://edwarddonner.com/pr) para crear una solicitud de extracción (PR) y añadirla a community_contributions. Nombra tu archivo algo como JUAN_GABRIEL_AGENTS.md, pero con tu nombre.
 
-I can't wait to see your changes.
+¡Tengo muchas ganas de ver tus cambios!
 
-## Posting your app
+## Publicación de tu app
 
-When you've successfully built a Kanban app, if you'd like to post about it on LinkedIn and tag me, then I'll weigh in to amplify your success and draw more attention to your achievements.
+Cuando hayas creado con éxito una app Kanban, si quieres publicarla en LinkedIn y etiquetarme, la compartiré para dar a conocer tu éxito y que tus logros sean más visibles.
 
-If you see other students doing this, please weigh in yourself to add your support and encouragement. It's so helpful for the community if we support each other.
+Si ves a otros estudiantes haciendo esto, por favor, comparte tu apoyo y ánimo. Es muy útil para la comunidad que nos apoyemos mutuamente.
