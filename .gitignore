@@ -1,0 +1,14 @@
+node_modules/
+.next/
+playwright-report/
+test-results/
+coverage/
+.env
+.env.local
+*.tsbuildinfo
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+graft/
+
+# WSL crash dumps
+*.stackdump
