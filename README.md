@@ -1,25 +1,44 @@
-# Gestor de Proyectos Kanban
+# Kanban Board
 
-## Instrucciones
+Minimal Kanban project management board built with Next.js.
 
-Este es un proyecto base para tu proyecto Kanban de la Semana 1 del Curso Completo de Programación en IA. Consulta los recursos del curso para obtener más información.
+## Prerequisites
 
-Debes clonar este repositorio en tu directorio de proyectos con:
+- Node.js 18+
+- npm or bun
 
-`git clone https://github.com/joanby/kanban.git`
+## Setup
 
-Luego, modifica el archivo AGENTS.md antes de usarlo en tu Agente de Codificación preferido.
+```bash
+cd frontend
+npm install
+```
 
-Si no tienes Git instalado, puedes [instalarlo aquí](https://git-scm.com/install/) y es posible que necesites reiniciar el equipo después.
+## Development
 
-## Contribuir con tu archivo AGENTS.md
+```bash
+npm run dev
+```
 
-Si has sugerido cambios en AGENTS.md que te han funcionado bien, ¡compártelos para que otros estudiantes se beneficien! Sigue las instrucciones del enlace [aquí](https://edwarddonner.com/pr) para crear una solicitud de extracción (PR) y añadirla a community_contributions. Nombra tu archivo algo como JUAN_GABRIEL_AGENTS.md, pero con tu nombre.
+Open http://localhost:3000.
 
-¡Tengo muchas ganas de ver tus cambios!
+## Unit Tests
 
-## Publicación de tu app
+```bash
+npm run test
+```
 
-Cuando hayas creado con éxito una app Kanban, si quieres publicarla en LinkedIn y etiquetarme, la compartiré para dar a conocer tu éxito y que tus logros sean más visibles.
+## E2E Tests
 
-Si ves a otros estudiantes haciendo esto, por favor, comparte tu apoyo y ánimo. Es muy útil para la comunidad que nos apoyemos mutuamente.
+```bash
+npx playwright install
+npm run test:e2e
+```
+
+## Stack
+
+- Next.js (App Router, TypeScript)
+- Tailwind CSS v4
+- @dnd-kit (drag and drop)
+- Vitest + React Testing Library
+- Playwright
